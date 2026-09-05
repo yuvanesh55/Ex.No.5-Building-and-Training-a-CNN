@@ -122,15 +122,18 @@ for i in range(5):
     <img width="554" height="396" alt="image" src="https://github.com/user-attachments/assets/81232b25-568e-4453-af4a-daa8ecb71eae" />
     <img width="554" height="299" alt="image" src="https://github.com/user-attachments/assets/d91e0a8a-5280-4886-8f58-2533d33104f2" />
     <img width="554" height="284" alt="image" src="https://github.com/user-attachments/assets/be9212f4-4e6e-4f71-b3f8-43a953665c83" />
+
+  # THEORY
+   
+   A Convolutional Neural Network (CNN) is a deep learning algorithm mainly used for processing and classifying image data. It automatically extracts important features such as edges, shapes, textures, and patterns from images. A CNN consists of convolutional layers, activation functions, pooling layers, and fully connected layers. By training the network with labelled images, it learns the features required to correctly classify new images.
+
+   # WORKING PRINCIPLE
+
+   The input image is first given to the convolution layer, where filters (kernels) slide over the image and extract important features. The ReLU activation function introduces non-linearity into the network. The pooling layer reduces the spatial dimensions while retaining important features. The extracted features are then flattened and passed to fully connected layers. Finally, the output layer predicts the class of the input image. During training, the predicted output is compared with the actual label using a loss function, and the network weights are updated using backpropagation and an optimizer to reduce the error.
+
+   <img width="2048" height="1475" alt="image" src="https://github.com/user-attachments/assets/05463f4f-4b0c-41ea-bcdd-c2de07c9ff94" />
+
+   
+   
    ##  Conclusion:
 Thus successfully implemented and trained a CNN to recognize objects across ten distinct categories using the CIFAR 10 dataset.
-
-
-
-
-
-
-
-
-
-
